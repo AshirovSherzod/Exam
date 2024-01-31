@@ -1,0 +1,270 @@
+main {
+    padding-top: 85px !important;
+}
+
+#hero {
+    height: 710px;
+    background-image: url(../images/hero/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__top {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    gap: 35px;
+}
+
+.hero__top h1 {
+    color: var(--text-color);
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+
+.hero__top h4 {
+    color: var(--second-text-color);
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+.hero__btns {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.hero__btn {
+    width: 154px;
+    height: 48px;
+    color: var(--secondary-color-1);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    border-radius: 37px;
+    border: 1px solid var(--secondary-color-1);
+    background-color: transparent;
+}
+
+.hero__btn:hover {
+    color: var(--light-text-color);
+    background-color: var(--primary-color);
+    border: var(--primary-color);
+}
+
+.hero__bottom {
+    padding-top: 110px;
+}
+
+.hero_bottom__card {
+    width: 328px;
+    height: 210px;
+    padding: 35px;
+    background-color: var(--light-text-color);
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    gap: 10px;
+}
+
+.hero_bottom__card h3 {
+    margin: 10px 0;
+}
+
+.cards i {
+    width: 48px;
+    height: 48px;
+}
+
+.hero_bottom__card:hover {
+    color: var(--light-text-color);
+    background-color: var(--secondary-color-1);
+}
+
+#about {
+    padding: 200px 0;
+    background-color: #fafafa;
+}
+
+.about__top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.about__top h2 {
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about__top p {
+    color: var(--second-text-color);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.about_bottom__card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    height: 209px;
+    gap: 15px;
+    background-color: #fff;
+}
+
+.about_bottom__card:hover {
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#advice {
+    background-color: #fafafa;
+    padding: 40px 0;
+}
+
+.advice__top {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    gap: 10px;
+    text-align: center;
+}
+
+.advice__top h2 {
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.advice__top p {
+    color: var(--second-text-color);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.advice__bottom_card {
+    display: flex;
+    flex-direction: column;
+    width: 232px;
+    height: 321px;
+    gap: 10px;
+    background-color: #fff;
+}
+
+.advice__card_title {
+    padding: 45px 30px;
+}
+
+#service {
+    padding: 100px 0;
+    background-color: #FFF;
+}
+
+.service__top {
+    padding: 60px 0;
+}
+
+.service_top__title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.service_top__title h2 {
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.service_top__title p {
+    color: var(--second-text-color);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.service_top_content_right {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.service_top_content_right h2 {
+    color: var(--text-color);
+    font-size: 40px;
+}
+
+.service_top_content_right p {
+    color: var(--second-text-color);
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.service_top__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.service_top__card_title {
+    display: flex;
+    flex-direction: row;
+    color: var(--text-color, #252B42);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.service_top__card_title img {
+    padding-right: 10px;
+}
+
+.service_top__card p {
+    padding-left: 44px;
+}
+
+.service__brands {
+    margin-top: 50px;
+    padding: 50px 0;
+}
+
+form {
+    padding: 30px 50px;
+    background-color: var(--secondary-color-2);
+}
+
+form label {
+    color: var(--light-text-color);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.inputs {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+form input {
+    border-radius: 10px;
+    padding: 15px 20px;
+    border: transparent;
+}
+
+form button {
+    height: 58px;
+    width: 117px;
+    background-color: var(--primary-color);
+    border: transparent;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
